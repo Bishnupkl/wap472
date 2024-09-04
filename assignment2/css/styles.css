@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.form-container {
+    margin: 20px auto;
+    border: 1px solid #a9c6bc;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #a9c6bc;
+    padding: 10px 20px;
+    border-bottom: 1px solid #a9c6bc;
+    margin-bottom: 10px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+    padding: 5px 10px;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.more-actions {
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+p {
+    margin: 0 20px 20px;
+    font-size: 14px;
+}
+
+select {
+    background: white;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.left-section, .right-section {
+    width: 45%;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    flex: 0 0 150px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+textarea {
+    resize: vertical;
+    height: 60px;
+}
+
+.payment-options {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 10px;
+}
+
+.payment-option {
+    display: flex;
+    align-items: center;
+}
+
+.payment-option label {
+    margin-left: 5px;
+    font-weight: normal;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    flex: 0 0 150px;
+    font-weight: bold;
+}
+
+.payment-mode .form-group input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.payment-option .options {
+    font-weight:normal;
+}
+
+.required {
+    color: red;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+.form-actions {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: #007b5e;
+    color: white;
+    border: none;
+    padding: 10px 20px !important;
+    margin: 0 10px !important;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005f46;
+}
+
+button b{
+    color: #ffffff !important;
+}
+
+.dropdown{
+
+}
+.dropdown-toggle::after {
+    margin-left: 0.5rem;
+}
+
+.dropdown-toggle b{
+    color: #000000 !important;
+
+}
