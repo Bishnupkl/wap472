@@ -16,6 +16,7 @@ class Meditation {
     }
 }
 
+
 const morning_meditation = new Meditation(5);
 morning_meditation.start();
 console.log(`Start meditation`);
