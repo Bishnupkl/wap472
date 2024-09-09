@@ -1,16 +1,28 @@
-class University {
+type BankAccount = {
+    money: number;
+    deposit: (value: number) => void;
+};
+
+let bankAccount: BankAccount = {
+    money: 2000,
+    deposit(value: number): void {
+        this.money += value;
+    }
+};
+
+type Person = {
     name: string;
-    dept: string;
+    bankAccount: BankAccount;
+    hobbies: string[];
+};
 
-    constructor(name: string, dept: string) {
-        this.name = name;
-        this.dept = dept;
-    }
+// Explicitly type the myself object
+let myself: Person = {
+    name: "John",
+    bankAccount: bankAccount,
+    hobbies: ["Violin", "Cooking"]
+};
 
-    graduation(year: number): void {
-        console.log(`Graduating ${this.dept} ${year} students`);
-    }
-}
+myself.bankAccount.deposit(3000);
 
-let miu: University = new University("MIU", "MSD");
-miu.graduation(2021);
+console.log(myself);

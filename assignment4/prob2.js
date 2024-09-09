@@ -1,12 +1,14 @@
-var University = /** @class */ (function () {
-    function University(name, dept) {
-        this.name = name;
-        this.dept = dept;
+var bankAccount = {
+    money: 2000,
+    deposit: function (value) {
+        this.money += value;
     }
-    University.prototype.graduation = function (year) {
-        console.log("Graduating ".concat(this.dept, " ").concat(year, " students"));
-    };
-    return University;
-}());
-var miu = new University("MIU", "MSD");
-miu.graduation(2021);
+};
+// Explicitly type the myself object
+var myself = {
+    name: "John",
+    bankAccount: bankAccount,
+    hobbies: ["Violin", "Cooking"]
+};
+myself.bankAccount.deposit(3000);
+console.log(myself);
