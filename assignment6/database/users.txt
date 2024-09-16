@@ -1,0 +1,22 @@
+[
+  {
+    "id": "qYeRZoOt",
+    "username": "xander1234",
+    "password": "098765678"
+  },
+  {
+    "id": "txtiR0MV",
+    "username": "dumbledore@wizards.com",
+    "password": "iam@wizard!"
+  },
+  {
+    "id": "DBElMy8G",
+    "username": "dumbledore@wizards.com",
+    "password": "iam@wizard!"
+  },
+  {
+    "id": "3CXvT6lB",
+    "username": "micavujad",
+    "password": "Pa$$w0rd!"
+  }
+]
