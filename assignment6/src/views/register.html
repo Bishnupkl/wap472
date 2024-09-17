@@ -85,7 +85,7 @@
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
 
-    const response = await fetch('/users/register', {
+    const response = await fetch('/users/add-user', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "42",
+    "title": "Coffee",
+    "price": "279",
+    "description": "Good Americano"
+  },
+  {
+    "id": "64",
+    "title": "Distinctio Deserunt",
+    "price": "405",
+    "description": "Consequat Mollitia "
+  },
+  {
+    "id": "71",
+    "title": "Repellendus Eum eaq",
+    "price": "186",
+    "description": "Ad quia lorem ex nem"
+  },
+  {
+    "id": "71",
+    "title": "Repellendus Eum eaq",
+    "price": "186",
+    "description": "Ad quia lorem ex nem"
+  },
+  {
+    "id": "678",
+    "title": "Dell",
+    "price": "700",
+    "description": "Nice product"
+  }
+]

@@ -1,5 +1,4 @@
 import path from 'path';
-import fs from 'fs';
 import express, { Request, Response } from 'express';
 import userRoutes from './routes/users';
 import productRoutes from './routes/products';

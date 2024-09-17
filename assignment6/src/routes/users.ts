@@ -34,11 +34,12 @@ function generateRandomID(length: number = 8): string {
     return result;
 }
 
-router.get('/register', (req: Request, res: Response) => {
+
+router.get('/add-user', (req: Request, res: Response) => {
     res.sendFile(path.join(__dirname, '../views/register.html'));
 });
 
-router.post('/register', (req: Request, res: Response) => {
+router.post('/add-user', (req: Request, res: Response) => {
     const {username, password} = req.body;
 
     const newUser: User = {

@@ -1,0 +1,26 @@
+POST http://localhost:3000/books
+
+Content-Type: application/json
+{
+    "title": "Rich Dad Poor Dad",
+            "ISBN": "874737",
+            "publishedDate": 2008,
+            "author": "Robert Kiyosaki",
+}
+
+###
+GET http://localhost:3000/books
+
+###
+GET http://localhost:3000/books/0.98622279686549294444444
+
+###
+PUT http://localhost:3000/books/0.8805548995552908
+Content-Type: application/json
+
+{
+  "price": 499
+}
+
+###
+DELETE http://localhost:3000/books/2222222
