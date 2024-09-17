@@ -2,8 +2,9 @@ import { Request, Response, NextFunction } from "express";
 import Book from "../models/book";
 
 export const save = (req: Request, res: Response, next: NextFunction) => {
-    const { title, price, description } = req.body;
-    const newBook = new Book(null, title, price, description).save();
+    console.log(req.body);
+    const { title,ISBN,publishedDate,author } = req.body;
+    const newBook = new Book(null, title,ISBN,publishedDate,author).save();
     res.status(201).json(newBook);
 }
 
@@ -16,8 +17,8 @@ export const getById = (req: Request, res: Response) => {
 }
 
 export const updateById = (req: Request, res: Response) => {
-    const { title, price, description } = req.body;
-    new Book(req.params.id, title, price, description).update();
+    const { title,ISBN,publishedDate,author } = req.body;
+    new Book(req.params.id, title,ISBN,publishedDate,author).update();
     res.status(204).end();
 }
 

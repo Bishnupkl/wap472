@@ -4,7 +4,7 @@ let books: Book[] = [];
 
 export default class Book {
 
-    constructor(public id: string | null, public title: string, public price: number, public description: string){
+    constructor(public id: string | null,public title:string, public ISBN: string, public publishedDate: number, public author: string){
     }
 
     save(){
